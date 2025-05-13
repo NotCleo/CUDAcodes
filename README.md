@@ -1,6 +1,6 @@
 # CUDAcodes
 
-This Repo contains all the CUDA codes I have written
+This Repo contains all the CUDA kernels I have written
 
 1) Monte Carlo Simulation for Option Pricing
 2) Parallel Reduction
@@ -14,9 +14,15 @@ Note : Have covered loop unrolling, shared memory, warp divergence and plenty mo
 
 BONUS : I have also added the performance comparisons of the reduction kernels. 
 
-I have used the Nvidia H100 GPU, 
+I have used the Nvidia H100 GPU
 
--> Hopper Arch
--> 14,592 cores
+The repository also holds the following CUDA kernels 
+
+1) Radix sorting
+2) Merge sorting
+3) Matrix transpose
+4) Convolution (1D/2D) with constant memory masking and with global memory access
+5) Thread/Block organization
+6) FP performance comparison 
 
 
