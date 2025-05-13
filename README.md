@@ -2,13 +2,15 @@
 
 This Repo contains all the CUDA kernels I have written
 
-1) Monte Carlo Simulation for Option Pricing
-2) Parallel Reduction
-3) Image Convolution
-4) Parallel Scan
-5) Parallel Compact
-6) Matrix Transpose 
-7) Parallel Reductions
+
+1) Monte Carlo Simulation for Option Pricing (Rookie attempt)
+2) Monte Carlo Estimation for Pi
+3) CNN (on spectrograms) for detecting fake audio 
+4) 2D convolution for image sharpening
+5) Parallel Reduction
+6) Parallel Scan
+7) Parallel Compact
+8) Parallel Reductions
 
 Note : Have covered loop unrolling, shared memory, warp divergence and plenty more techniques to above algorithms
 
@@ -25,7 +27,9 @@ The repository will be updated with following CUDA kernels (later)
 4) Convolution (1D/2D) with constant memory masking and with global memory access
 5) Thread/Block organization
 6) FP performance comparison 
+7) Matrix related kernels
 
+   
 # Note
 nvcc filename.cu -o whatever
 ./whatever
