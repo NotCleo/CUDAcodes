@@ -3,7 +3,7 @@
 This Repo contains all the CUDA kernels I have written
 
 
-1) Monte Carlo Simulation for Option Pricing (Rookie attempt)
+1) Black Scholes simulation for Option Pricing (Rookie attempt)
 2) Monte Carlo Estimation for Pi
 3) CNN (on spectrograms) for detecting fake audio 
 4) 2D convolution for image sharpening
