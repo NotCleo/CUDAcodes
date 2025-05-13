@@ -14,9 +14,10 @@ Note : Have covered loop unrolling, shared memory, warp divergence and plenty mo
 
 BONUS : I have also added the performance comparisons of the reduction kernels. 
 
-I have used the Nvidia H100 GPU
+Performed some of these on the H100 (super fun), which I was provided access to via a Docker container, the rest have been done on the T4 GPU.
 
-The repository also holds the following CUDA kernels 
+# Future work
+The repository will be updated with following CUDA kernels (later)
 
 1) Radix sorting
 2) Merge sorting
@@ -25,4 +26,11 @@ The repository also holds the following CUDA kernels
 5) Thread/Block organization
 6) FP performance comparison 
 
+# Note
+nvcc filename.cu -o whatever
+./whatever
+python filename.py
+
+
+Do not forget to check the nvcc compiler version with the driver versions, the mismatch will require to step to; nvcc -arch=sm_75 -o whatever filename.cu
 
