@@ -34,3 +34,10 @@ python filename.py
 
 Do not forget to check the nvcc compiler version with the driver versions, the mismatch will require to step to; nvcc -arch=sm_75 -o whatever filename.cu
 
+
+# Dataset Used
+
+https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset
+
+
+
